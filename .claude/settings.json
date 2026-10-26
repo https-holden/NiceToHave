@@ -1,0 +1,16 @@
+{
+  "hooks": {
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "f=\"${CLAUDE_PROJECT_DIR:-.}/nicetohave-roadmap/bin/session_check.py\"; [ -f \"$f\" ] || exit 0; exec python3 \"$f\"",
+            "timeout": 30,
+            "statusMessage": "Checking the vault write-back"
+          }
+        ]
+      }
+    ]
+  }
+}
