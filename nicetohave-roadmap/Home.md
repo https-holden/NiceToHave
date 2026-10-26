@@ -11,6 +11,8 @@ Planning for NiceToHave. Two kinds of note, one relation between them:
 
 Specs that builds start from live in `Research/`.
 
+**[[Elements]]** is the catalog: every element by name, what it is and how far along it is.
+
 ## To browse
 
 **[[Build queue.base]]** and **[[Idea backlog.base]]** are the interactive views: sortable,
@@ -23,9 +25,9 @@ filterable, always live off the notes' own properties.
 
 <!-- reindex:counts -->
 
-- **Ideas** 2 open, 0 done, 0 culled
+- **Ideas** 3 open, 1 done, 0 culled
 - **Builds** 0 planned, 0 shipped
-- **Open and unscoped** 2 of 2
+- **Open and unscoped** 3 of 3
 
 <!-- /reindex:counts -->
 
@@ -50,7 +52,8 @@ Nothing queued.
 | Idea | Area | Scoped into |
 |---|---|---|
 | [[A closable notice card and an Add to Home Screen tip]] | notice-card | unscoped |
-| [[An idea with a blank area crashes the reindex script]] | roadmap | unscoped |
+| [[A feedback and bug report flow that lands in Telegram]] |  | unscoped |
+| [[A first-visit walkthrough]] | walkthrough | unscoped |
 
 ### SPEC
 

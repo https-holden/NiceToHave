@@ -1,6 +1,6 @@
 ---
 type: idea
-status: Open
+status: Done
 kind: NOW
 area: roadmap
 created: 2026-10-26
@@ -14,3 +14,7 @@ Found 26 Oct 2026 while writing the first idea. The idea template and the vault 
 
 <!-- reindex:builds -->
 <!-- /reindex:builds -->
+
+## Resolved in
+
+8646e36 (26 Oct 2026): the frontmatter reader now reads `area: ""` as an empty string and keeps a bare `key:` as the start of a list. An idea captured with a blank area files under "Unfiled" in [[Ideas]].

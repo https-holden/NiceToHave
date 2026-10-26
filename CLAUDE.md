@@ -11,6 +11,15 @@ environment variables; each element documents the ones it needs in a committed `
 and `.env` stays git-ignored. Strip app-specific names and keys when porting code in from
 another repo.
 
+## An element takes the style of the app it lands in
+
+An element here keeps its shape and behaviour, never its looks. When it is used in another app it
+takes that app's colours, fonts, spacing, radii, icon set and voice: the purple of the app it
+came from is not part of the element. So an element names no colour or font of its own; it reads
+the host's tokens (CSS variables or the host's theme), and its README says which ones. Copy is a
+default the host rewrites. Before dropping one in, read the destination's design docs and match
+them.
+
 ## Working from the roadmap vault
 
 Planning lives in `nicetohave-roadmap/`, an Obsidian vault tracked in this repo. `Ideas/` is

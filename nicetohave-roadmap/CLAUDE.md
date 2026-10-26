@@ -59,6 +59,10 @@ session is in the body under `## Prompt`. Frontmatter:
 research`, `area`, `created`. It is prose, not a queue, so the script does not index it. A
 build cut from a spec links to it by wikilink in its first paragraph.
 
+`Elements.md` is the hand-kept catalog of elements by name, one row each. Add a row when an
+element gets its first idea note, and update its status when a rules note or code lands. It is
+not generated: edit it directly.
+
 A build is named with a short prefix and a number, so it can be said aloud and found by grep
 (`NTH-07 Title`). New notes start from `_templates/`.
 
