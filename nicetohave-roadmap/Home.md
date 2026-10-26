@@ -23,9 +23,9 @@ filterable, always live off the notes' own properties.
 
 <!-- reindex:counts -->
 
-- **Ideas** 0 open, 0 done, 0 culled
+- **Ideas** 2 open, 0 done, 0 culled
 - **Builds** 0 planned, 0 shipped
-- **Open and unscoped** 0 of 0
+- **Open and unscoped** 2 of 2
 
 <!-- /reindex:counts -->
 
@@ -47,7 +47,10 @@ Nothing queued.
 
 *broken or missing in a way a user meets*
 
-None open.
+| Idea | Area | Scoped into |
+|---|---|---|
+| [[A closable notice card and an Add to Home Screen tip]] | notice-card | unscoped |
+| [[An idea with a blank area crashes the reindex script]] | roadmap | unscoped |
 
 ### SPEC
 
