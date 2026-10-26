@@ -68,9 +68,10 @@ def parse(path):
             if key:
                 fm.setdefault(key, []).append(line[4:].strip().strip('"'))
             continue
-        key, _, val = line.partition(":")
-        key, val = key.strip(), val.strip().strip('"')
-        fm[key] = val if val else []
+        key, _, raw_val = line.partition(":")
+        key, val = key.strip(), raw_val.strip().strip('"')
+        # A bare `key:` opens a list; a quoted empty `key: ""` is an empty string.
+        fm[key] = val if val or raw_val.strip() else []
     return fm, body
 
 
